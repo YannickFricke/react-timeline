@@ -4,5 +4,17 @@
     "main": "dist/index.js",
     "repository": "git@github.com:YannickFricke/react-timeline.git",
     "author": "Yannick Fricke <yannickfricke@googlemail.com>",
-    "license": "MIT"
+    "license": "MIT",
+    "scripts": {
+        "commit": "git-cz"
+    },
+    "devDependencies": {
+        "commitizen": "^4.1.2",
+        "cz-conventional-changelog": "^3.2.0"
+    },
+    "config": {
+        "commitizen": {
+            "path": "./node_modules/cz-conventional-changelog"
+        }
+    }
 }
